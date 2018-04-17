@@ -14,23 +14,23 @@
 
 <body>
   
-<section class="hero is-info is-medium">
+<section class="hero has-bg-ben is-medium">
 
     <nav class="level">
         <p class="level-item has-text-centered">
-          <a class="link is-info">Home</a>
+          <a href="#" class="link is-info">Home</a>
         </p>
         <p class="level-item has-text-centered">
-          <a class="link is-info">Services</a>
+          <a href="services.html" class="link is-info">Services</a>
         </p>
         <p class="level-item has-text-centered">
-          <a href="" class="name">ROSS MURTLE</a>
+          <a href="contact.html" class="name">ROSS MURTLE</a>
         </p>
         <p class="level-item has-text-centered">
-          <a class="link is-info">Projects</a>
+          <a href="projects.html" class="link is-info">Projects</a>
         </p>
         <p class="level-item has-text-centered">
-          <a class="link is-info">Contact</a>
+          <a href="contact.html" class="link is-info">Contact</a>
         </p>
       </nav> 
 
@@ -55,47 +55,67 @@
             <button id="modalClose" class="delete" aria-label="close"></button>
           </header>
           <section class="modal-card-body">
+
+          <div id="form-messages"></div>
+            <form id="ajax-contact" method="post" action="https://formspree.io/rossmurtle3@gmail.com">
+              <div class="field">
+                <label for="name" class="label">Your Name:</label>
+                  <div class="control">
+                    <input class="input" type="text" id="name" name="name" required>
+                 </div>
+              </div>
+          
+              <div class="field">
+                <label for="email" class="label">Your Email:</label>
+                <div class="control">
+                  <input class="input" type="email" id="email" name="email" required>
+                </div>
+              </div>
+
             <div class="field">
-              <label class="label">Your Name</label>
-              <div class="control">
-                <input class="input" type="text" placeholder="Your Name">
+              <label for="name" class="label">Referral's Name:</label>
+                <div class="control">
+                  <input class="input" type="text" id="referral-name" name="referral-name" required>
+                </div>
+            </div>
+          
+              <div class="field">
+                <label for="email" class="label">Referral's Email:</label>
+                <div class="control">
+                  <input class="input" type="email" id="referral-email" name="referral-email" required>
+                </div>
+            </div>
+          
+              <div class="field">
+                  <label class="label" for="message">Message:</label>
+                  <textarea class="textarea" id="message" name="message" required></textarea>
               </div>
-              <label class="label">Your E-Mail Address</label>
-              <div class="control">
-                <input class="input" type="email" placeholder="you@email.com">
+          
+              <div class="field">
+                  <button class="button is-primary has-text-dark" type="submit">Send</button>
               </div>
-              <label class="label">Referral's Name</label>
-              <div class="control">
-                <input class="input" type="text" placeholder="Referall's Name">
-              </div>
-              <label class="label">Referral's E-Mail Address</label>
-              <div class="control">
-                <input class="input" type="email" placeholder="them@email.com">
-              </div>
-          </section>
-          <footer class="modal-card-foot">
-            <button class="button is-primary has-text-black">Submit</button>
-            <button id="cancelButton" class="button">Cancel</button>
-          </footer>
-        </div>
-      </div>
+          </form>
+        </div>           
 </section>
 
 <section class="section cont">
   <div class="columns">
     <div class="column">
       <h1 class="title">Hi, I'm Ross.</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, voluptas. Sint, minima labore? Rerum autem ipsam vel sint iste nesciunt!</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maiores hic at, officia non temporibus aliquid sit. Similique, obcaecati architecto.</p>
+      <h1 class="subtitle">I'm a Front-End Web Developer</h1>
+      <strong>Mission</strong>
+      <p>I strive to help small businesses grow make the internet more beautiful. With my knowlege in front-end technologies and frameworks like HTML5, CSS3, JavaScript, and jQuery (to name a few), my goal is to help your business's online identity grow and, as a result, grow your business into an established web presence.</p> <br>
+      <strong>Skills</strong>
+
     </div>
     <div class="column is-half">
       <h1 class="title">Blog</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptas perferendis expedita, odit reprehenderit doloribus rem, ad modi voluptatem id, non earum accusamus labore. Unde blanditiis error exercitationem eaque iure debitis magnam, esse voluptatibus labore deserunt dolores sapiente maxime neque quos aut voluptates rerum ad a voluptatum in eius accusantium!</p>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptas perferendis expedita, odit reprehenderit doloribus rem, ad modi voluptatem id, non earum accusamus labore. Unde blanditiis error exercitationem eaque iure debitis magnam, esse voluptatibus labore deserunt dolores sapiente maxime neque quos aut voluptates rerum ad a voluptatum in eius accusantium!</p>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptas perferendis expedita, odit reprehenderit doloribus rem, ad modi voluptatem id, non earum accusamus labore. Unde blanditiis error exercitationem eaque iure debitis magnam, esse voluptatibus labore deserunt dolores sapiente maxime neque quos aut voluptates rerum ad a voluptatum in eius accusantium!</p>
+      <p>Coming soon!</p>
     </div>
     <div class="column">
-      <h1 class="title">Sidebar</h1>
+      <h1 class="title">What Am I Doing?</h1>
+      <h2 class="subtitle">Current Jobs/Projects</h2>
+      <strong>Co-Founder/Vice President of <a href="#" class="link">CreuLab, LLC</a></strong>
     </div>
   </div>
 </section>
