@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="../node_modules/bulma-extensions/bulma-carousel/dist/bulma-carousel.min.css">
+  <link rel="stylesheet" href="../public/styles/animate.css">
+  <title>Web Development & Design | RossMurtle.com</title>
+</head>
+
+<body>
+  
+<section class="hero is-info is-medium">
+
+    <nav class="level">
+        <p class="level-item has-text-centered">
+          <a class="link is-info">Home</a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a class="link is-info">Services</a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a href="" class="name is-uppercase is-size-1">Ross Murtle</a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a class="link is-info">Projects</a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a class="link is-info">Contact</a>
+        </p>
+      </nav> 
+
+      <div class="hero-body">
+        <div class="container has-text-primary">
+          
+          <h1 class="title">
+            It's all about the Benjamin's.
+          </h1>
+          <h2 class="subtitle">
+            Know somebody who needs a custom website? Refer them and earn yourself $100. 
+          </h2>
+          <button class="button is-primary has-text-dark">Get Paid</button>
+        </div>
+      </div>
+
+      <div id="getPaid" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title">Earn Yourself Some Benjamins</p>
+            <button id="modalClose" class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <h1>Modal Content</h1>
+          </section>
+          <footer class="modal-card-foot">
+            <button class="button is-success">Save changes</button>
+            <button class="button">Cancel</button>
+          </footer>
+        </div>
+      </div>
+</section>
+
+<section class="section is-primary">
+  <div class="has-text-centered">
+    <h1 class="title is-teko is-uppercase is-size-1">What I Offer</h1>
+  </div>
+  <div class="columns">
+    <div class="column has-text-centered ">
+      <div>
+        <p class="heading">I Love This Stuff</p>
+        <p class="title">HTML5, CSS3, JavaScript, SASS</p>
+        <p>I love front-end. Something about making a website look beautiful inspires me. Having the ability to use my skills to create something that makes a user say, "Wow. That's f'n sweet!" makes me incredibly happy. Using my skills in various front-end technologies, I can offer you (or your company) beautiful solutions to your online branding and marketing issues. </p>
+      </div>
+
+    </div>
+    <div class="column has-text-centered">
+        <div>
+          <p class="heading">I'm Learning This Stuff</p>
+          <p class="title">TypeScript, Angular2, Node.js, PHP </p>
+          <p>As I continue my education in the world of web development, my aspirations keep growing. I am currently reading, watching videos, and experimenting in these technologies so that one day I can help build scalable web applications.</p>
+        </div>
+      </div>
+      <!-- <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Something</p>
+            <p class="title">Something Else</p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Something</p>
+              <p class="title">Something Else</p>
+            </div>
+          </div> -->
+  </nav>
+</section>
+
+<section class="section" id="packages">
+  <div class="container">
+  <h1 class="title">Packages</h1>
+  <h3 class="subtitle"> </h3>
+  <div class="pricing-table is-comparative">
+      <div class="pricing-plan is-features">
+        <div class="plan-header">Features</div>
+        <div class="plan-price"><span class="plan-price-amount">&nbsp;</span></div>
+        <div class="plan-items">
+          <div class="plan-item">Hosting</div>
+          <div class="plan-item">Domain(s)</div>
+          <div class="plan-item">Branded Email</div>
+          <div class="plan-item">Development</div>
+          <div class="plan-item">eCommerce</div>
+          <div class="plan-item">Extras</div>
+
+        </div>
+        <div class="plan-footer">
+
+      </div>
+    </div>
+    <div class="pricing-plan is-success">
+      <div class="plan-header">Personal</div>
+      <div class="plan-price">Starting at: <span class="plan-price-amount"><span class="plan-price-currency">$</span>650</span></div>
+      <div class="plan-items">
+        <div class="plan-item" data-feature="Hosting">1 year included</div>
+        <div class="plan-item" data-feature="Domain(s)"><em>Not Included</em></div>
+        <div class="plan-item" data-feature="Branded Email">1 included</div>
+        <div class="plan-item" data-feature="Development">5 Pages, Custom Branding</div>
+        <div class="plan-item" data-feature="eCommerce"><em>Not Inluded</em></div>
+        <div class="plan-item" data-feature="Extras">3 Months Support</div>
+
+      </div>
+      <div class="plan-footer">
+        <button class="button is-fullwidth">Choose</button>
+      </div>
+    </div>
+
+    <div class="pricing-plan is-warning is-active">
+      <div class="plan-header">Small Business</div>
+      <div class="plan-price">Starting at: <span class="plan-price-amount"><span class="plan-price-currency">$</span>1,100</span></div>
+      <div class="plan-items">
+          <div class="plan-item" data-feature="Hosting">1 year included</div>
+          <div class="plan-item" data-feature="Domain(s)">Up to 5 (1 year included)</div>
+          <div class="plan-item" data-feature="Branded Email">Up to 10</div>
+          <div class="plan-item" data-feature="Development">10 Pages, Custom Branding</div>
+          <div class="plan-item" data-feature="eCommerce">wooCommerce Included</div>
+          <div class="plan-item" data-feature="Extras">6 Months Support</div>
+        </div>
+      <div class="plan-footer">
+        <button class="button is-fullwidth">Choose</button>
+      </div>
+    </div>
+
+    <div class="pricing-plan">
+      <div class="plan-header">Mid-Size Business</div>
+      <div class="plan-price">Starting at: <span class="plan-price-amount"><span class="plan-price-currency">$</span>2,250</span></div>
+      <div class="plan-items">
+          <div class="plan-item" data-feature="Hosting">1 year included</div>
+          <div class="plan-item" data-feature="Domain(s)">Up to 10 (1 year included)</div>
+          <div class="plan-item" data-feature="Branded Email">Unlimited</div>
+          <div class="plan-item" data-feature="Development">15+ Pages, Custom Branding</div>
+          <div class="plan-item" data-feature="eCommerce"><em>Not Inluded</em></div>
+          <div class="plan-item" data-feature="Extras">3 Months Support</div>
+  
+      </div>
+      <div class="plan-footer">
+        <button class="button is-fullwidth">Choose</button>
+      </div>
+    </div>
+
+    <div class="pricing-plan is-danger">
+      <div class="plan-header">Enterprise</div>
+      <div class="plan-price">Starting at: <span class="plan-price-amount"><span class="plan-price-currency">$</span>3,500</span></div>
+      <div class="plan-items">
+          <div class="plan-item" data-feature="Hosting">1 year included</div>
+          <div class="plan-item" data-feature="Domain(s)"><em>Not Included</em></div>
+          <div class="plan-item" data-feature="Branded Email">Up to 5</div>
+          <div class="plan-item" data-feature="Design">Custom Logos & Graphics</div>
+          <div class="plan-item" data-feature="eCommerce"><em>Not Inluded</em></div>
+          <div class="plan-item" data-feature="Extras">3 Months Support</div>
+  
+      </div>
+      <div class="plan-footer">
+        <button class="button is-fullwidth">Choose</button>
+      </div>
+    </div>
+  </div>
+ 
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        Copyright &copy; 2018 <strong><a href="#" alt="&copy; 2018 Ross Murtle">Ross Murtle</a></strong>
+      </p>
+      <i class="icon">
+        <a href="#"> <img src="images/i-fb.png" alt="Facebook"> </a>
+      </i>
+      <i class="icon">
+        <a href="#"> <img src="images/i-tw.png" alt="Twitter"> </a>
+      </i>
+      <i class="icon">
+        <a href="#"> <img src="images/i-inst.png" alt="Instagram"> </a>
+      </i>
+      <i class="icon">
+        <a href="#"> <img src="images/i-link.png" alt="LinkedIn"> </a>
+      </i>
+      <i class="icon">
+        <a href="#"> <img src="images/i-github.png" alt="GitHub"> </a>
+      </i>
+      <i class="icon">
+        <a href="#"> <img src="images/i-stack.png" alt="Stack Overflow"> </a>
+      </i>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+  <script src="js/main.js"></script>
+  <script type="text/javascript" src="/node_modules/bulma-extensions/bulma-carousel/dist/bulma-carousel.min.js"></script>
+</body>
+</html>
